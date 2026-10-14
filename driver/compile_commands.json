@@ -1,0 +1,17 @@
+[
+  {
+    "directory": "C:/dev/cheats/cs2/tools/kernel-lab/driver",
+    "arguments": [
+      "clang",
+      "-std=c11",
+      "-D_AMD64_",
+      "-DNTDDI_VERSION=0x0A00000D",
+      "-I", "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/include",
+      "-I", "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/km",
+      "-I", "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/shared",
+      "-I", "C:/Program Files (x86)/Windows Kits/10/Include/10.0.26100.0/ucrt",
+      "-c",
+      "smoke.c"
+    ]
+  }
+]
